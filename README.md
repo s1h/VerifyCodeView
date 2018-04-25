@@ -3,6 +3,9 @@
 [![](https://jitpack.io/v/s1h/VerifyCodeView.svg)](https://jitpack.io/#s1h/VerifyCodeView)
 
 
+
+To get a Git project into your build:
+
 Step 1. Add the JitPack repository to your build file
 
 Add it in your root build.gradle at the end of repositories:
@@ -13,9 +16,8 @@ Add it in your root build.gradle at the end of repositories:
 			maven { url 'https://jitpack.io' }
 		}
 	}
-
 Step 2. Add the dependency
 
 	dependencies {
-                 compile 'com.github.s1h:VerifyCodeView:1.0.0'
+	        compile 'com.github.s1h:VerifyCodeView:1.0.1'
 	}
