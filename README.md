@@ -3,7 +3,7 @@
 [![](https://jitpack.io/v/s1h/VerifyCodeView.svg)](https://jitpack.io/#s1h/VerifyCodeView)
 
 
-![Alt text](https://github.com/s1h/VerifyCodeView/tree/master/screenshots/preview.jpg)
+![示例](https://github.com/s1h/VerifyCodeView/raw/master/screenshots/preview.jpg)
 
 To get a Git project into your build:
 
