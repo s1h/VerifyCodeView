@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/verify_code_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/codeOne"
+                style="@style/VerifyCodeViewStyle"
+                android:background="@drawable/verify_code_line_default" />
+            <com.shlib.verifycodelib.VerifyCodeCursor
+                android:id="@+id/cursorOne"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="32dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/codeTwo"
+                style="@style/VerifyCodeViewStyle"
+                android:background="@drawable/verify_code_line_default" />
+            <com.shlib.verifycodelib.VerifyCodeCursor
+                android:id="@+id/cursorTwo"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="32dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/codeThree"
+                style="@style/VerifyCodeViewStyle"
+                android:background="@drawable/verify_code_line_default" />
+            <com.shlib.verifycodelib.VerifyCodeCursor
+                android:id="@+id/cursorThree"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="32dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/codeFour"
+                style="@style/VerifyCodeViewStyle"
+                android:background="@drawable/verify_code_line_default" />
+            <com.shlib.verifycodelib.VerifyCodeCursor
+                android:id="@+id/cursorFour"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="32dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/verify_code_edit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="5dip"
+        android:background="@null"
+        android:digits="0123456789"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="4"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:singleLine="true"
+        android:textColorHint="#999999"
+        android:textSize="18sp" />
+
+</LinearLayout>

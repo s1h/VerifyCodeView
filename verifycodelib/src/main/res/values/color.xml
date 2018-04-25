@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="verifyCodeLineDefault">#DBDBDB</color>
+    <color name="verifyCodeLineFocus">#197cff</color>
+    <color name="verifyCodeTextColor">#000000</color>
+</resources>

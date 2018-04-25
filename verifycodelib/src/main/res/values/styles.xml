@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="VerifyCodeViewStyle">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">43sp</item>
+        <item name="android:textColor">@color/verifyCodeTextColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="CheckCodeLineStyle">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/verifyCodeLineDefault</item>
+    </style>
+
+</resources>
